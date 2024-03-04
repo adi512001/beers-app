@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# Frontend Beer Brewer app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that presents a beer selection.
 
-Currently, two official plugins are available:
+- The user can click on a card to see more information about a beer.
+- The user can set a beer as favorite, and view all his favorite beers in a different page.
+- The user can filter beers by food pairing using a free text field.
+- In Favorite Beers page, the user can click the "Remove All" button to remove all his favorite beers.
+- In Favorite Beers page, the user can rank the beer (values from 1 to 5).
+- State management is Redux Toolkit, styling with Ant design and styled-components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Local run
 
-## Expanding the ESLint configuration
+You can view the app live on:
+<br>
+To run locally:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. `npm install` `npm start`
+2. View the project locally at http://localhost:5173/
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![image info](./pictures/screenshot.png)
+![image info](./pictures/screenshot2.png)
+![image info](./pictures/screenshot3.png)
