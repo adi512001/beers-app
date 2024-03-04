@@ -53,7 +53,7 @@ const BrowseBeers = () => {
     }
     setLoading(true);
     setPage(1);
-    const inputText = value.replaceAll(" ", "_");
+    const inputText = value.replace(" ", "_");
     await axios
       .get(
         `${API_ENDPOINT}?page=1&per_page=${BEERS_PER_PAGE}&food=${inputText}`
