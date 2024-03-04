@@ -11,7 +11,7 @@ A React application that presents a beer selection.
 
 # Local run
 
-You can view the app live on:
+You can view the app live on: https://beers-app-zs13.vercel.app/
 <br>
 To run locally:
 
